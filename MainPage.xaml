@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Pumpkin.Wizzard.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Pumpkin.Wizzard"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <ProgressBar HorizontalAlignment="Left" Height="10" Margin="360,456,0,0" VerticalAlignment="Top" Width="100"/>
+        <ProgressRing HorizontalAlignment="Left" Margin="390,535,0,0" VerticalAlignment="Top" />
+
+    </Grid>
+</Page>
